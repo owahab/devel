@@ -1,6 +1,6 @@
 # Devel
 
-TODO: Write a gem description
+Devel is a set of tools for Rails Developers.
 
 ## Installation
 
@@ -12,13 +12,11 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install devel
-
 ## Usage
 
-TODO: Write usage instructions here
+To enable Letter Opener, just add the following to your `development.rb`:
+
+    config.action_mailer.delivery_method = :letter_opener
 
 ## Contributing
 

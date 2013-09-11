@@ -1,0 +1,5 @@
+To have Rails open sent emails in a browser,
+add the following to your development.rb file:
+##################################################################
+  config.action_mailer.delivery_method = :letter_opener
+##################################################################
