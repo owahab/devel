@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Devel::VERSION
   spec.authors       = ["Omar Abdel-Wahab"]
   spec.email         = ["owahab@gmail.com"]
-  spec.description   = %q{UI Developer Essential Gem}
-  spec.summary       = %q{UI Developer Essential Gem}
+  spec.description   = %q{Rails Developer Essential Gem}
+  spec.summary       = %q{Rails Developer Essential Gem}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -26,4 +26,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake"
   spec.add_dependency "rails", ">= 3.2"
   spec.add_dependency "letter_opener"
+  spec.add_dependency "better_errors"
+  spec.add_dependency "binding_of_caller"
 end
